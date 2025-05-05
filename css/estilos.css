@@ -44,6 +44,8 @@ nav ul li a:hover{
 main {
     padding: 30px;
     text-align: center;
+    width: 80%;
+    justify-content: center;
 }
 /* ESTILOS A LA SECCIÓN */
 section{
@@ -67,6 +69,13 @@ img{
     height: auto;
     margin-top: 15px;
     border-radius: 8px;
+}
+
+.img-tarjeta{
+    width: 0%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 /* ESTILOS DE LAS TARJETAS DE SERVICIOS */
 .tarjetas{
