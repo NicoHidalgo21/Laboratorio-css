@@ -1,11 +1,11 @@
-# Título del Proyecto
+# EMPRENDIMIENTO DIGITAL
 
-_Acá va un párrafo que describa lo que es el proyecto_
+PRÁCTICA DE HTML Y CSS
 
 ## Comenzando 🚀
 
 Esta práctica muestra como aplicar estilos CSS a un sitio web construido en HTML.
-Mira **Deployment** para conocer como desplegar el proyecto.
+
 
 
 ### Pre-requisitos 📋
@@ -38,4 +38,4 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [Nico] 😊
