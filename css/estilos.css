@@ -54,6 +54,8 @@ nav ul li a:hover {
 main {
     padding: 30px;
     text-align: center;
+    width: 80%;
+    justify-content: center;
 }
 
 /* SECCIONES */
@@ -110,8 +112,19 @@ img {
     display: block;
 }
 
+<<<<<<< HEAD
 /* TARJETAS DE SERVICIOS */
 .tarjetas {
+=======
+.img-tarjeta{
+    width: 0%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/* ESTILOS DE LAS TARJETAS DE SERVICIOS */
+.tarjetas{
+>>>>>>> 5c60137773967dc04d3ad3e96b976949218e6463
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
