@@ -26,7 +26,7 @@ Esta práctica muestra como aplicar estilos CSS a un sitio web construido en HTM
 
 ## Página de inicio
 
-![Pantalla principal](/img/inicio.png)
+![Pantalla principal](./img/inicio.png)
 
 ## Página de servicios
 ![Pantalla servicios](/img/servicios.png)
