@@ -26,7 +26,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 |[Pantalla servicios](/img/servicios.png)
 
 ## Página de planes
-|[Pantalla planes](/img/planes.png)
+(/img/planes.png)
 
 |[Pantalla basico](/img/basicos.png)
 
