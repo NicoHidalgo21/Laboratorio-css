@@ -1,107 +1,209 @@
-/* APLICANDO REGLAS UNIVERSALES*/
-*{
+/* APLICANDO REGLAS UNIVERSALES */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* ESTILOS GENERALES DEL SITIO */
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffffff;
-    color: #333
+    color: #333;
+    line-height: 1.6;
 }
-/* DEFINIR EL ESTILO DEL ENCABEZADO */
-header{
+
+/* ENCABEZADO */
+header {
     background-color: #1f1a1a;
-    padding: 20px;
+    padding: 20px 0;
+    text-align: center;
 }
-/* ESTILOS DEL LOGO */
-.logo{
+
+.logo {
     width: 100px;
+    margin-bottom: 20px;
 }
-/* ESTILOS DEL NAVEGADOR*/
-nav ul{
+
+/* NAVEGACIÓN */
+nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-/* ESTILOS DE LOS INTEMS DE LA LISTA */
+
 nav ul li {
     margin: 0 15px;
 }
-/* ESTILOS A LOS ENLACES DEL NAVEGADOR*/
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     text-decoration: underline;
-    color: #8f8c8c
+    color: #8f8c8c;
 }
-/* ESTILOS DEL AREA PRINCIPAL */
+
+/* CONTENIDO PRINCIPAL */
 main {
     padding: 30px;
     text-align: center;
 }
-/* ESTILOS A LA SECCIÓN */
-section{
+
+/* SECCIONES */
+section {
     margin-bottom: 40px;
     padding: 20px;
     background: white;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-/* ESTILO PIE DE PÁGINA */
-footer{
+
+/* TITULOS Y PARRAFOS EN SECCIÓN */
+h1, h2, h3 {
+    font-weight: bold;
+    color: #1f1a1a;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* LISTA DE INCLUSIONES DEL PLAN */
+ul {
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 20px;
+    max-width: 600px;
+    list-style-type: disc;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* PIE DE PÁGINA */
+footer {
     background-color: #333;
     color: #eee;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
 }
-/* ESTILO DE IMÁGENES */
-img{
-    width: 100%;
+
+/* IMÁGENES */
+img {
+    width: 80%;
+    max-width: 400px;
     height: auto;
-    margin-top: 15px;
+    margin: 15px auto;
     border-radius: 8px;
+    display: block;
 }
-/* ESTILOS DE LAS TARJETAS DE SERVICIOS */
-.tarjetas{
+
+/* TARJETAS DE SERVICIOS */
+.tarjetas {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
 }
-/* ESTILOS A CADA TARJETA */
-.tarjeta{
+
+.tarjeta {
     background-color: #c5d2bb80;
     padding: 20px;
     border: 2px solid #1f1a1a;
     border-radius: 10px;
     width: 30%;
     margin: 10px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 1)
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
 }
-/* DISEÑO RESPONSIVE */
-@media (max-width: 768px){
-    /* CAMBIAR LA ORIENTACIÓN DE LAS COLUMNAS DEL MENÚ*/
-    nav ul{
-        flex-direction: column;
 
+/* BOTÓN "Ver más" EN TARJETAS */
+.btn {
+    display: inline-block;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover {
+    background-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    background-color: #2471a3;
+    transform: scale(0.97);
+}
+
+/* BOTÓN REGRESAR */
+.btn-regresar {
+    display: inline-block;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border: none;
+    margin: 20px auto;
+}
+
+.btn-regresar:hover {
+    background-color: #1abc9c;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.btn-regresar:active {
+    background-color: #16a085;
+    transform: scale(0.98);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* DISEÑO RESPONSIVO */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
     }
-    nav ul li{
+
+    nav ul li {
         margin: 10px 0;
     }
-    /* COLOCANDO LAS TARJETAS UNA DEBAJO DE OTRA */
-    .tarjetas{
+
+    .tarjetas {
         flex-direction: column;
         align-items: center;
     }
-    /* CADA TARJETA OCUPA EL 80% DEL EXPACIO UTILIZADO */
-    .tarjeta{
+
+    .tarjeta {
         width: 80%;
+    }
+
+    img {
+        width: 90%;
     }
 }
