@@ -18,6 +18,24 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente
 * [Git](https://git-scm.com/) - Git Bush para Windows
+## Página de inicio
+
+|[Pantalla principal](/img/inicio.png)
+
+## Página de servicios
+|[Pantalla servicios](/img/servicios.png)
+
+## Página de planes
+|[Pantalla planes](/img/planes.png)
+
+|[Pantalla basico](/img/basicos.png)
+
+|[Pantalla estandar](/img/estandars.png)
+
+|[Pantalla premium](/img/premiums.png)
+
+## Página de nosotros
+|[Pantalla nosotros](/img/nosotros.png)
 
 ## Autores ✒️
 
